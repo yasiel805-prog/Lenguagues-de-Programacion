@@ -1,0 +1,22 @@
+/******************************************************************************
+PROYECTO:Calculo de Edad en C++
+NOMBRE:Yasiel Espinosa Tzopitl
+FECHA:25 de Julio 2026
+DESCRIPCION:El codigo realiza el calculo de una persona si es mayor o no de edad 
+           
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+
+int main() {
+    int edad;
+    cout << "Ingresa tu edad: ";
+    cin >> edad;
+    if (edad >= 18) {
+        cout << "Eres mayor de edad,Ya puedes Trabajar en Coppel          " << endl;
+    } else {
+        cout << "Eres menor de edad,Aun no puedes Trabajar en Coppel" << endl;
+    }
+    return 0;
+}
