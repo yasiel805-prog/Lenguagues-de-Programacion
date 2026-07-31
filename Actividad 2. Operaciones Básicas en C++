@@ -1,0 +1,30 @@
+/**************************************************************
+ * Autor:Yasiel Espinosa Tzopitl
+ * la finalidad del codigo es utilizar las 4 operaciones basicas ,suma,resta,multiplicacion
+ * y divisionn
+ * Fecha:30/07/2026
+ * programa:SUMA,RESTA,multiplicacion y division * 
+*******************************************************************************/
+#include <iostream>
+
+int main() {
+    float numero1, numero2;
+
+    std::cout << "escribe el primer número: ";
+    std::cin >> numero1;
+
+    std::cout << "escribe el segundo número: ";
+    std::cin >> numero2;
+
+    float suma = numero1 + numero2;
+    float resta = numero1 - numero2;
+    float multiplicacion = numero1 * numero2;
+    float division = numero1 / numero2;
+
+    std::cout << "la suma es: " << suma << std::endl;
+    std::cout << "La resta es: " << resta << std::endl;
+    std::cout << "La multiplicación es: " << multiplicacion << std::endl;
+    std::cout << "La división es: " << division << std::endl;
+
+    return 0;
+}
